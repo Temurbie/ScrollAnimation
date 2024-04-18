@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+box-sizing: border-box;
+}
+
+/* colors */
+.blue{
+    --clr: #4285F4;
+}
+.red{
+    --clr: #DB4437;
+}
+.blue{
+    --clr: #4285F4;
+}
+.yellow{
+    --clr: #FFD707;
+}
+.green{
+    --clr: #19FF07;
+}
+.pinck{
+    --clr: #F907FF;
+}
+.tomato{
+    --clr: #A10041;
+}
+.purple{
+    --clr: #DB12FF;
+}
+.brown{
+    --clr: #783D26;
+}
+
+body{
+    background-color: #636e72;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+.box{
+    background-color: var(--clr);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    transform: translateX(400%);
+    transition: transform 0.5s ease;
+    margin: 10px;
+
+}
+.juft{
+    transform: translateX(-400%);
+}
+.show{
+    transform: translate(0);
+}
